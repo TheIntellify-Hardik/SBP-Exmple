@@ -1,0 +1,38 @@
+ManifestFileVersion: 1
+CompatibilityAssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: textures
+      Hash: cf855734379399965f114591fe7b0971
+      CRC: 1205492965
+      Dependencies: {}
+    Info_1:
+      Name: materials
+      Hash: 4988c4aa3c27ef4bccaa3b52f5368a4d
+      CRC: 1305736023
+      Dependencies: {}
+        Dependency_0: textures
+    Info_2:
+      Name: scenes
+      Hash: ce34cb2d809722a32b7de9afcab4819e
+      CRC: 742556230
+      Dependencies: {}
+        Dependency_0: materials
+        Dependency_1: textures
+    Info_3:
+      Name: shaders
+      Hash: 3a5120c36162615c9925e49d0412dfb6
+      CRC: 489146348
+      Dependencies: {}
+    Info_4:
+      Name: prefabs
+      Hash: c38d29409f302e49339c4f306d33d864
+      CRC: 3902234805
+      Dependencies: {}
+        Dependency_0: materials
+        Dependency_1: textures
+    Info_5:
+      Name: objects
+      Hash: 1f36112ad508f4904ab436928031bdb0
+      CRC: 1941823128
+      Dependencies: {}

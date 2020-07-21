@@ -1,0 +1,69 @@
+Warning: The formatting in this file is subject to change.
+[LoadCachedData] 70652.9000000001us
+ 1 items
+ [GetCachedInfoFile] 2621.09999999984us
+ [Read and deserialize cache info] 58778.4999999999us
+  Time spent deserializing: 56ms
+  Cache hit count: 1
+ [Check for changed dependencies] 5588.60000000004us
+[SaveCachedData] 20708.5999999999us
+ Saving 1 infos
+ [SetupOperations] 99.2999999998574us
+ [SerializingCacheInfos] 20220.800000001us
+[LoadCachedData] 14361.7999999988us
+ 18 items
+ [GetCachedInfoFile] 1508.0999999991us
+ [Read and deserialize cache info] 12350.0999999997us
+  Time spent deserializing: 11ms
+  Cache hit count: 12
+ [Check for changed dependencies] 465.899999999237us
+[SaveCachedData] 9733.20000000058us
+ Saving 14 infos
+ [SetupOperations] 1381.2999999991us
+ [SyncPendingSaves] 13.0000000008295us
+ [SerializingCacheInfos] 8113.29999999907us
+[LoadCachedData] 1530.00000000065us
+ 6 items
+ [GetCachedInfoFile] 492.100000001301us
+ [Read and deserialize cache info] 1008.8999999989us
+  Time spent deserializing: 0ms
+  Cache hit count: 0
+ [Check for changed dependencies] 2.49999999869033us
+[SaveCachedData] 12937.7000000004us
+ Saving 6 infos
+ [SetupOperations] 828.800000001138us
+ [SyncPendingSaves] 10.5000000003201us
+ [SerializingCacheInfos] 11764.1000000003us
+[CreateWorkItems] 6370.89999999989us
+[CalculateHashFileOffsets] 1412.20000000067us
+[Creating Cache Entries] 15566.8999999998us
+[Load Cached Data] 1623.09999999889us
+ [LoadCachedData] 1608.29999999987us
+  6 items
+  [GetCachedInfoFile] 401.700000000346us
+  [Read and deserialize cache info] 1177.90000000059us
+   Time spent deserializing: 0ms
+   Cache hit count: 0
+  [Check for changed dependencies] 3.40000000142027us
+[CopyingCachedFiles] 12.3999999996158us
+[ArchiveItems] 67139.799999999us
+ Archiving 6 Bundles
+ [Archive textures] 31801us
+  [Copying From Cache Library/BuildCache/9f/9f5a20791f0401c3d58aeb445fea6585/6c01a9357b6d76a534f220b585a88df8/textures -> Assets/StreamingAssets/textures] 445.500000000003us
+ [Archive objects] 7743.3us
+  [Copying From Cache Library/BuildCache/e7/e7d5b8fd2606d25386643d348fd2f4db/b49cb3c9c9c9c66dda0f3d24c74a0d00/objects -> Assets/StreamingAssets/objects] 1465.5us
+ [Archive shaders] 13767.3us
+  [Copying From Cache Library/BuildCache/31/314daaf69daf9b455e88968905158681/da2a04a034e45c4c672739839e3ed382/shaders -> Assets/StreamingAssets/shaders] 744us
+ [Archive scenes] 40956.1us
+  [Copying From Cache Library/BuildCache/d5/d5d669f4d110f756946c2b561d943cd1/75a8da1888b66dfae8da0c711390f159/scenes -> Assets/StreamingAssets/scenes] 614.100000000001us
+ [Archive prefabs] 10831.4us
+  [Copying From Cache Library/BuildCache/f0/f0a50032d9afebd479360b0614507b32/e261251dadce433ddd7f1e24ce900b62/prefabs -> Assets/StreamingAssets/prefabs] 1007us
+ [Archive materials] 44555.9us
+  [Copying From Cache Library/BuildCache/10/1014672097b090d603fd4d38f8e28896/fb12ecd0112094b598aba0c486fac988/materials -> Assets/StreamingAssets/materials] 850.500000000004us
+[PostArchiveProcessing] 1423.89999999978us
+[Copying To Cache] 2704.89999999882us
+ [SaveCachedData] 2128.999999999us
+  Saving 6 infos
+  [SetupOperations] 473.099999999249us
+  [SyncPendingSaves] 5.10000000031141us
+  [SerializingCacheInfos] 1419.49999999997us
